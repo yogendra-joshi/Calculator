@@ -1,0 +1,92 @@
+:root {
+  --mainbackground: hsl(222, 26%, 31%);
+  --keypadbackground: hsl(223, 31%, 20%);
+  --brightCyan: hsl(224, 36%, 15%);
+  --keybackground: hsl(225, 21%, 49%);
+  --keyshadow: hsl(224, 28%, 35%);
+  --grayishblue: hsl(221, 14%, 31%);
+  --White: hsl(0, 0%, 100%);
+  --redkeybackground: hsl(6, 63%, 50%);
+  --darkredkeyshadow: hsl(6, 70%, 34%);
+  --lightkeybackground: hsl(30, 25%, 89%);
+  --lightkeybackgroundshadow: hsl(28, 16%, 65%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+.container .SectionDiv {
+  height: 35rem;
+  width: 25rem;
+  padding: 0.5rem;
+}
+.container .SectionDiv .NavTitle .heading {
+  color: var(--White);
+}
+.container .SectionDiv .NavTitle .heading:hover {
+  cursor: auto;
+}
+.container .SectionDiv .Display {
+  background: var(--brightCyan);
+  border: none;
+  font-size: 34px;
+  color: white;
+  width: 24rem;
+  height: 6rem;
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.container .SectionDiv .Display:hover {
+  cursor: auto;
+}
+.container .SectionDiv .ButtonSection {
+  background: var(--keypadbackground);
+  width: 24rem;
+  height: 23rem;
+  border-radius: 0.4rem;
+  border: 1px solid;
+  border-color: var(--keypadbackground);
+  margin-top: 1rem;
+}
+.container .SectionDiv .ButtonSection .ButtonContainer {
+  width: 22rem;
+  height: 3.5rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background: var(--keypadbackground);
+}
+.container .SectionDiv .ButtonSection .ButtonContainer .button {
+  background: var(--lightkeybackground);
+  height: 3rem;
+  width: 5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+.container .SectionDiv .ButtonSection .ButtonContainer .button:hover {
+  cursor: pointer;
+  background: var(--White);
+}
+.container .SectionDiv .ButtonSection .ButtonContainer .delete {
+  background-color: var(--keyshadow);
+  color: var(--White);
+}
+.container .SectionDiv .ButtonSection .ButtonContainer .delete:hover {
+  background: var(--keybackground);
+}
+.container .SectionDiv .ButtonSection .ButtonContainer .reset {
+  width: 10.5rem;
+}
+.container .SectionDiv .ButtonSection .ButtonContainer .equal {
+  background: var(--darkredkeyshadow);
+  width: 10.5rem;
+}
+.container .SectionDiv .ButtonSection .ButtonContainer .equal:hover {
+  background: var(--redkeybackground);
+}/*# sourceMappingURL=calculator.css.map */
