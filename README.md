@@ -4,20 +4,19 @@ This is a simple web calculator application built with React.js and styled with 
 
 # Features
 
-User-friendly and responsive design.
+User-friendly design.
 Basic arithmetic operations: addition, subtraction, multiplication, and division.
 Clear button to reset the calculator.
 Keyboard support for numeric input and basic operations.
-Error handling for invalid inputs.
 Designed with SCSS for easy customization and styling.
 
 # Demo
 
-You can check out a live demo of the web calculator here (insert link to your demo if available).
+You can check out a live demo of the web calculator here https://calc10.netlify.app/
 
 # Screenshots
 
-!(/src/assets/ss.png)
+![Project Screenshot](/src/assets/ss.png)
 
 # Contact
 
