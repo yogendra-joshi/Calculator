@@ -4,11 +4,10 @@ This is a simple web calculator application built with React.js and styled with 
 
 # Features
 
-User-friendly design.
-Basic arithmetic operations: addition, subtraction, multiplication, and division.
-Clear button to reset the calculator.
-Keyboard support for numeric input and basic operations.
-Designed with SCSS for easy customization and styling.
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Clear button to reset the calculator.
+- Keyboard support for numeric input and basic operations.
+- Designed with SCSS for easy customization and styling.
 
 # Demo
 
